@@ -1,0 +1,57 @@
+@media only screen and (max-width: 699px) {
+    .container__top{
+        background-image: url('images/pattern-bg-mobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        margin-bottom: -22rem;
+    }
+
+    input{
+        width: 20rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        padding-left: 1rem;
+    }
+    
+    .icon__arrow{
+        position: relative;
+        left: 18.3rem;
+        bottom: 3rem;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 0rem 0.4rem 0.4rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    hr{
+        opacity: 0;
+        position: absolute;
+    }
+
+    .container__mid{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        bottom: -10rem;
+        margin: 0rem 5rem;
+        height:21rem;
+    }
+
+    .data{
+        margin-bottom: 1rem;;
+    }
+
+    .container__title{
+        margin: 0.5rem 0rem;
+    }
+
+    .container__bottom{
+        height: calc(100vh - 19rem); 
+    }
+    
+
+
+}

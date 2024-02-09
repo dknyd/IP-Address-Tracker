@@ -1,0 +1,49 @@
+@media only screen and (min-width: 700px) {
+ 
+.container__top{
+    background-image: url('images/pattern-bg-desktop.png');
+    background-size: cover;
+        background-repeat: no-repeat;
+    margin-bottom: -10rem;
+    height: 15rem;
+}
+
+input{
+    width: 30rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+}
+
+.icon__arrow{
+    position: relative;
+    left: 28.3rem;
+    bottom: 3rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0rem 0.4rem 0.4rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container__mid{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    bottom: -5rem;
+    margin: 0rem 2rem;
+}
+
+hr{
+    height: 5rem;
+    background-color: var(--Dark-Gray);
+}
+
+.container__bottom{
+    height: calc(100vh - 21rem);   
+}
+
+}
